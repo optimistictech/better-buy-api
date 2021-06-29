@@ -3,7 +3,7 @@ define('SERVER', $_SERVER['SERVER_NAME']);
 
 if (SERVER != 'localhost' AND SERVER != '127.0.0.1' ) {
    
-define('HOST', 'localhost');
+define('HOST', 'better-buy-api.herokuapp.com');
 define('USER_NAME', 'optimist_api');
 define('PASSWORD', 'optimistic_api');
 define('DB_NAME', 'optimist_api');
@@ -35,7 +35,7 @@ class Database
         $this->connection = mysqli_connect(HOST, USER_NAME, PASSWORD, DB_NAME);
 
         if (mysqli_connect_error()) {
-            die('Connection Error2: '.mysqli_connect_error());
+            die('Connection Error: '.mysqli_connect_error());
         }
     }
 

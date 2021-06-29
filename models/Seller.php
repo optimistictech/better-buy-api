@@ -9,7 +9,7 @@ require_once("{$base_dir}includes{$ds}Bcrypt.php"); // Including Bcrypt
 // Class Seller Start
 class Seller
 {
-    private $table = 'sellers';
+    private $table = 'user';
 
     public $id;
     public $name;

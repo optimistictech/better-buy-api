@@ -3,13 +3,14 @@ define('SERVER', $_SERVER['SERVER_NAME']);
 
 if (SERVER != 'localhost' AND SERVER != '127.0.0.1' ) {
    
-    define('HOST', '54.36.110.215');
-    define('USER_NAME', 'root');
-    define('PASSWORD', '');
-    define('DB_NAME', 'api');
+define('HOST', '54.36.110.215');
+define('USER_NAME', 'optimist_api');
+define('PASSWORD', 'optimistic_api');
+define('DB_NAME', 'optimist_api');
+
 }else{
    
-define('HOST', '54.36.110.215');
+define('HOST', 'localhost');
 define('USER_NAME', 'root');
 define('PASSWORD', '');
 define('DB_NAME', 'api');

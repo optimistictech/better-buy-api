@@ -3,7 +3,7 @@ define('SERVER', $_SERVER['SERVER_NAME']);
 
 if (SERVER != 'localhost' AND SERVER != '127.0.0.1' ) {
    
-define('HOST', 'better-buy-api.herokuapp.com');
+define('HOST', 'herokuapp.com');
 define('USER_NAME', 'optimist_api');
 define('PASSWORD', 'optimistic_api');
 define('DB_NAME', 'optimist_api');

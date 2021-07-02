@@ -3,17 +3,23 @@ define('SERVER', $_SERVER['SERVER_NAME']);
 
 if (SERVER != 'localhost' AND SERVER != '127.0.0.1' ) {
    
-define('HOST', 'herokuapp.com');
-define('USER_NAME', 'optimist_api');
-define('PASSWORD', 'optimistic_api');
-define('DB_NAME', 'optimist_api');
+define('HOST', 'remotemysql.com');
+define('USER_NAME', '7XseBmIUs8');
+define('PASSWORD', 'G6ApbTMX0e');
+define('DB_NAME', '7XseBmIUs8');
 
 }else{
    
-define('HOST', 'localhost');
+/* define('HOST', 'localhost');
 define('USER_NAME', 'root');
 define('PASSWORD', '');
 define('DB_NAME', 'api');
+ */
+
+define('HOST', 'remotemysql.com');
+define('USER_NAME', '7XseBmIUs8');
+define('PASSWORD', 'G6ApbTMX0e');
+define('DB_NAME', '7XseBmIUs8');
 
 }
 
